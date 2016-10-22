@@ -145,6 +145,7 @@ GEM
       mime-types
       mimemagic (~> 0.3.0)
     pg (0.18.4)
+    puma (3.6.0)
     rack (2.0.1)
     rack-accept (0.4.5)
       rack (>= 0.4)
@@ -258,6 +259,7 @@ DEPENDENCIES
   kaminari
   paperclip (~> 5.1.0)
   pg
+  puma
   rails (>= 5.0.0, < 5.1)
   rails_admin
   rake

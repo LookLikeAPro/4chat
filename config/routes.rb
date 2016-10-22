@@ -18,18 +18,13 @@ Rails.application.routes.draw do
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
 
   # Example resource route (maps HTTP verbs to controller actions automatically):
-  scope '/api' do
-    scope '/v1' do
-      resources :publications
-      resources :resources
-    end
-  end
-  scope '/api' do
-    scope '/v2' do
-      resources :publications
-      resources :resources
-    end
-  end
+  # scope '/api' do
+  #   scope '/v1' do
+  #     resources :publications
+  #     resources :resources
+  #   end
+  # end
+  resources :threads
 
   # root :to => 'frontend#index'
   # get '*path' => 'frontend#index'
